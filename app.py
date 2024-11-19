@@ -44,7 +44,7 @@ elif file_type == "Google Sheet":
         
         # Authorize and read the Google Sheet
         credentials = Credentials.from_service_account_file(
-            "C:/Users/anavu/OneDrive/Desktop/AI_Agent_Project/ai-agent-dashboard-441106-dddc817a0164.json", 
+            "give the address of json file", 
             scopes=scope
         )
         client = gspread.authorize(credentials)
@@ -81,7 +81,7 @@ search_results = []
 def perform_search(query):
     try:
         # SerpApi API key
-        api_key = "750937acb2963ab96e9f4910c41fd4f4c444e5bd2504e9e8148b285644f9e8be"
+        api_key = "give your serp api key"
         
         # Set up the query parameters for SerpApi
         params = {
